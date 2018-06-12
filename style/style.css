@@ -37,7 +37,7 @@ input[type="number"] {
 }
 .not {
 	color: #e44646;
-    	width: 40%;
+    	width: 46%;
     	font-size: 14px;
     	line-height: 0;
     	padding: 7px;
@@ -76,7 +76,7 @@ span {
 .item {
     	background: #273b428a;
     	padding: 5px;
-    	width: 33%;
+    	width: 40%;
     	margin-top: 10px;    
     	color: white;   
     	text-align: center;

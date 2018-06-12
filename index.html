@@ -11,24 +11,24 @@
 			<div class="container">
 			
 				<div class="account add">
-					<h3>Регистрация нового аккаунта</h3>
+					<h3>Register new account</h3>
 				
-				<label>Input Name</label><br />
-				<input class="addname" id="nameadd" type="text" name="name" placeholder="Name" min="1" max="100"  required /><br />
-				<div id="checkname" class="not">Not Name</div>
-				<label>Input Sum</label><br />
-				<input class="addnum" id="sumadd" type="number" name="sum"  placeholder="sum"  min="1" max="100000"  required />
+				<label for="nameadd">Enter your name</label><br />
+				<input id="nameadd" type="text" name="name" placeholder="Name" required /><br />
+				<div id="checkname" class="not">Please fill in the field "Name"</div>
+				<label for="sumadd">Enter the deposit amount</label><br />
+				<input  id="sumadd" type="number" name="sum"  placeholder="Amount" required />
 				<input class="enter" id="push" type="submit" value="Отправить">
-				<div id="checksum" class="not">Not Sum</div>
+				<div id="checksum" class="not">Please fill in the field "Amount"</div>
 				</div>
 				<div class="account added">
-					<h3>Создан новый аккаунт</h3>
+					<h3>New account created</h3>
 					<div class="newvalue">
 						<div class="item">Account Name</div>
 						<div id="name" class="item"></div>
-						<div class="item">Account Sum</div>
+						<div class="item">Deposit Amount</div>
 						<div id="sum" class="item"></div>
-						<div class="item">Account Rate</div>
+						<div class="item">Account Rate (%)</div>
 						<div class="item" id="rate"></div>
 
 					</div>
